@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Measurement Converter</title>
+    <link rel="stylesheet" href="style.css"> <!-- Linking CSS file -->
+</head>
+<body>
+    <h1>Measurement Converter</h1>
+
+    <!-- Centimeters to Inches Conversion -->
+    <div>
+        <input type="number" id="cmInput" placeholder="Enter centimeters">
+        <button onclick="convertCmToInches()">Convert to Inches</button>
+        <p id="inchesResult"></p>
+    </div>
+
+    <!-- Inches to Centimeters Conversion -->
+    <div>
+        <input type="number" id="inchesInput" placeholder="Enter inches">
+        <button onclick="convertInchesToCm()">Convert to Centimeters</button>
+        <p id="cmResult"></p>
+    </div>
+
+    <script src="script.js"></script> <!-- Linking JavaScript file -->
+</body>
+</html>
